@@ -13,16 +13,18 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
-    }
+
+$this->app->bind('path.public',function(){
+return'/home/u359347918.sotepsa.com/public_html';   }
+
 
     /**
      * Bootstrap any application services.
      *
      * @return void
      */
+    
     public function boot()
     {
         //
     }
-}
